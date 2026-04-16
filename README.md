@@ -10,14 +10,10 @@ A command-line Sudoku game built with clean architecture and SOLID principles.
 
 ### Build
 
-**Windows (PowerShell):**
-```powershell
-javac -d out (Get-ChildItem -Recurse -Filter *.java src/main/java,src/test/java | ForEach-Object FullName)
-```
+**Windows (CMD & PowerShell):**
+```cmd prmt & PowerShell
+cmd /c "dir /s /b src\*.java > sources.txt && javac -d out @sources.txt && del sources.txt"
 
-**Windows (Command Prompt):**
-```cmd
-dir /s /b src\*.java > sources.txt && javac -d out @sources.txt
 ```
 
 **Linux/macOS:**
