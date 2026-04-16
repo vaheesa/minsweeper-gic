@@ -2,6 +2,8 @@
 out/
 *.class
 
+
+
 # Package files
 *.jar
 *.war
