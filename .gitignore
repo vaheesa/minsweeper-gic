@@ -2,7 +2,8 @@
 out/
 *.class
 
-
+# Build artifacts
+sources.txt
 
 # Package files
 *.jar
