@@ -1,16 +1,16 @@
-package com.example.sudoku.cli;
+package com.gic.sudoku.cli;
 
-import static com.example.sudoku.SudokuConstants.*;
+import static com.gic.sudoku.SudokuConstants.*;
 
-import com.example.sudoku.cli.CommandParser.Command;
-import com.example.sudoku.cli.CommandParser.CommandType;
-import com.example.sudoku.api.GridValidator;
-import com.example.sudoku.api.PuzzleGenerator;
-import com.example.sudoku.api.PuzzleSolver;
-import com.example.sudoku.impl.BacktrackingSolver;
-import com.example.sudoku.impl.RandomPuzzleGenerator;
-import com.example.sudoku.impl.StandardGridValidator;
-import com.example.sudoku.model.SudokuPuzzle;
+import com.gic.sudoku.cli.CommandParser.Command;
+import com.gic.sudoku.cli.CommandParser.CommandType;
+import com.gic.sudoku.api.GridValidator;
+import com.gic.sudoku.api.PuzzleGenerator;
+import com.gic.sudoku.api.PuzzleSolver;
+import com.gic.sudoku.impl.BacktrackingSolver;
+import com.gic.sudoku.impl.RandomPuzzleGenerator;
+import com.gic.sudoku.impl.StandardGridValidator;
+import com.gic.sudoku.model.SudokuPuzzle;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -177,5 +177,4 @@ public final class SudokuCli {
         }
         return copy;
     }
-
 }

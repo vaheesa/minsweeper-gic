@@ -1,6 +1,6 @@
-package com.example.sudoku.api;
+package com.gic.sudoku.api;
 
-import com.example.sudoku.model.SudokuPuzzle;
+import com.gic.sudoku.model.SudokuPuzzle;
 
 import java.util.Random;
 

@@ -1,6 +1,6 @@
-package com.example;
+package com.gic;
 
-import com.example.sudoku.cli.SudokuCli;
+import com.gic.sudoku.cli.SudokuCli;
 
 public final class App {
     public static void main(String[] args) {

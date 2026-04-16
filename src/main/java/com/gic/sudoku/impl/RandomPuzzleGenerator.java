@@ -1,11 +1,11 @@
-package com.example.sudoku.impl;
+package com.gic.sudoku.impl;
 
-import static com.example.sudoku.SudokuConstants.*;
+import static com.gic.sudoku.SudokuConstants.*;
 
-import com.example.sudoku.api.GridValidator;
-import com.example.sudoku.api.PuzzleGenerator;
-import com.example.sudoku.api.PuzzleSolver;
-import com.example.sudoku.model.SudokuPuzzle;
+import com.gic.sudoku.api.GridValidator;
+import com.gic.sudoku.api.PuzzleGenerator;
+import com.gic.sudoku.api.PuzzleSolver;
+import com.gic.sudoku.model.SudokuPuzzle;
 
 import java.util.ArrayList;
 import java.util.List;

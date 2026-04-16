@@ -9,23 +9,30 @@ A command-line Sudoku game built with clean architecture and SOLID principles.
 - No external dependencies - pure Java implementation
 
 ### Build
-```bash
-javac -d out $(find src/main/java src/test/java -name "*.java")
-```
 
-**Windows PowerShell:**
+**Windows (PowerShell):**
 ```powershell
 javac -d out (Get-ChildItem -Recurse -Filter *.java src/main/java,src/test/java | ForEach-Object FullName)
 ```
 
+**Windows (Command Prompt):**
+```cmd
+dir /s /b src\*.java > sources.txt && javac -d out @sources.txt
+```
+
+**Linux/macOS:**
+```bash
+javac -d out $(find src/main/java src/test/java -name "*.java")
+```
+
 ### Run the Game
 ```bash
-java -cp out com.example.App
+java -cp out com.gic.App
 ```
 
 ### Run Tests
 ```bash
-java -cp out com.example.TestRunner
+java -cp out com.gic.TestRunner
 ```
 
 ## How to Play
@@ -45,7 +52,7 @@ java -cp out com.example.TestRunner
 ## Project Structure
 
 ```
-src/main/java/com/example/sudoku/
+src/main/java/com/gic/sudoku/
 ├── SudokuConstants.java      # Centralized configuration & messages
 ├── api/                      # Interfaces (contracts)
 │   ├── GridValidator.java
@@ -119,7 +126,7 @@ To change any configuration or message, modify only this single file.
 
 Tests are organized to mirror the main source structure:
 ```
-src/test/java/com/example/sudoku/
+src/test/java/com/gic/sudoku/
 ├── impl/
 │   ├── StandardGridValidatorTest.java
 │   ├── BacktrackingSolverTest.java
@@ -132,7 +139,7 @@ src/test/java/com/example/sudoku/
 
 Run all tests:
 ```bash
-java -cp out com.example.TestRunner
+java -cp out com.gic.TestRunner
 ```
 
 

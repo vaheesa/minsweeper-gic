@@ -1,4 +1,4 @@
-package com.example.sudoku.api;
+package com.gic.sudoku.api;
 
 import java.util.Random;
 

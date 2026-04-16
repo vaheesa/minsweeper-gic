@@ -1,6 +1,6 @@
-package com.example.sudoku.cli;
+package com.gic.sudoku.cli;
 
-import static com.example.sudoku.SudokuConstants.*;
+import static com.gic.sudoku.SudokuConstants.*;
 
 public class GridRenderer {
 

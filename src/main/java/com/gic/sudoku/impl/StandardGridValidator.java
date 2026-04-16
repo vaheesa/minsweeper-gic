@@ -1,8 +1,8 @@
-package com.example.sudoku.impl;
+package com.gic.sudoku.impl;
 
-import static com.example.sudoku.SudokuConstants.*;
+import static com.gic.sudoku.SudokuConstants.*;
 
-import com.example.sudoku.api.GridValidator;
+import com.gic.sudoku.api.GridValidator;
 
 public final class StandardGridValidator implements GridValidator {
 

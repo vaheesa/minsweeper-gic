@@ -1,4 +1,4 @@
-package com.example.sudoku.model;
+package com.gic.sudoku.model;
 
 public record SudokuPuzzle(int[][] puzzle, int[][] solution, boolean[][] fixed) {
     public SudokuPuzzle {

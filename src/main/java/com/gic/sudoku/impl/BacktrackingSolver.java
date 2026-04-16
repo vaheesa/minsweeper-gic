@@ -1,9 +1,9 @@
-package com.example.sudoku.impl;
+package com.gic.sudoku.impl;
 
-import static com.example.sudoku.SudokuConstants.*;
+import static com.gic.sudoku.SudokuConstants.*;
 
-import com.example.sudoku.api.GridValidator;
-import com.example.sudoku.api.PuzzleSolver;
+import com.gic.sudoku.api.GridValidator;
+import com.gic.sudoku.api.PuzzleSolver;
 
 import java.util.Random;
 

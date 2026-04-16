@@ -1,13 +1,13 @@
-package com.example;
+package com.gic;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
-import com.example.sudoku.cli.SudokuCliTest;
-import com.example.sudoku.impl.BacktrackingSolverTest;
-import com.example.sudoku.impl.RandomPuzzleGeneratorTest;
-import com.example.sudoku.impl.StandardGridValidatorTest;
-import com.example.sudoku.model.SudokuPuzzleTest;
+import com.gic.sudoku.cli.SudokuCliTest;
+import com.gic.sudoku.impl.BacktrackingSolverTest;
+import com.gic.sudoku.impl.RandomPuzzleGeneratorTest;
+import com.gic.sudoku.impl.StandardGridValidatorTest;
+import com.gic.sudoku.model.SudokuPuzzleTest;
 
 public final class TestRunner {
     public static void main(String[] args) throws Exception {

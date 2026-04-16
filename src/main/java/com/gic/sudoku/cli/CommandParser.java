@@ -1,4 +1,4 @@
-package com.example.sudoku.cli;
+package com.gic.sudoku.cli;
 
 import java.util.Locale;
 

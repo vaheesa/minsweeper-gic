@@ -1,6 +1,6 @@
-package com.example.sudoku.impl;
+package com.gic.sudoku.impl;
 
-import com.example.Assert;
+import com.gic.Assert;
 
 public final class StandardGridValidatorTest {
     public void isValidGrid_withDuplicatesInRow_returnsFalse() {

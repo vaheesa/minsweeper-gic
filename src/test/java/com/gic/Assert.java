@@ -1,4 +1,4 @@
-package com.example;
+package com.gic;
 
 public final class Assert {
     private Assert() {}

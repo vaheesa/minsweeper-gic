@@ -1,6 +1,6 @@
-package com.example.sudoku.cli;
+package com.gic.sudoku.cli;
 
-import com.example.Assert;
+import com.gic.Assert;
 
 import java.lang.reflect.Method;
 

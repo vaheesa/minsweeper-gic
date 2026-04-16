@@ -1,4 +1,4 @@
-package com.example.sudoku;
+package com.gic.sudoku;
 
 public final class SudokuConstants {
     // Grid configuration

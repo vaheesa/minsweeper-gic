@@ -1,4 +1,4 @@
-package com.example.sudoku.api;
+package com.gic.sudoku.api;
 
 public interface GridValidator {
     boolean isValidPlacement(int[][] grid, int row, int col, int value);

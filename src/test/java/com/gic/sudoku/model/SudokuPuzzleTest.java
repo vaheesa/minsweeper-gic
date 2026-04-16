@@ -1,6 +1,6 @@
-package com.example.sudoku.model;
+package com.gic.sudoku.model;
 
-import com.example.Assert;
+import com.gic.Assert;
 
 public final class SudokuPuzzleTest {
     public void getters_returnSameReferences() {
