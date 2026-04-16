@@ -22,12 +22,12 @@ javac -d out $(find src/main/java src/test/java -name "*.java")
 ```
 
 ### Run the Game
-```bash
+```bash CMD & PowerShell
 java -cp out com.gic.App
 ```
 
 ### Run Tests
-```bash
+```bash CMD & PowerShell
 java -cp out com.gic.TestRunner
 ```
 
